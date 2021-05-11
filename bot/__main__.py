@@ -41,7 +41,7 @@ def stats(update, context):
             f'<b>├  🎮 RAM : {memory}%</b>\n' \
             f'<b>├  💽 DISK : {disk}%</b>\n' \
             f'<b>│</b>\n' \
-            f'<b>╰──「 🚸 @AT_BOTS 🚸 」</b>'
+            f'<b>╰──「 🚸 @cyphers 🚸 」</b>'
     sendMessage(stats, context.bot, update)
 
 
@@ -58,7 +58,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
 def repo(update, context):
     bot.send_message(update.message.chat_id,
     reply_to_message_id=update.message.message_id,
-    text="https://github.com/ayushteke/slam_aria_mirror_bot_HEROKU", disable_web_page_preview=false)
+    text="hey", disable_web_page_preview=false)
 
 
 @run_async
